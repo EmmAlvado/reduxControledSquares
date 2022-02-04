@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+
+.square:hover {
+  cursor: pointer;
+}
+
+.red-square {
+  background-color: red;
+  border: 2px red solid;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+
+
+.blue-square {
+  background-color: blue;
+  border: 2px blue solid;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+
+.blue-border {
+  border-color: blue;
+}
+
+
+.red-border {
+  border-color: red;
+}
